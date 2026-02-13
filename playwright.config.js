@@ -1,11 +1,11 @@
 // @ts-check
-const {defineConfig } = require('@playwright/test')
+const { defineConfig } = require('@playwright/test')
 
 /**
  * @see https://playwright.dev/docs/test-configuration
  */
-//const config = ({
-module.exports = defineConfig({
+
+    module.exports = defineConfig({
     testDir: './tests/',
     /* Maximum time one test can run for. */
     timeout: 30 *1000,
@@ -25,4 +25,3 @@ module.exports = defineConfig({
 
 
 });
-module.exports = config
